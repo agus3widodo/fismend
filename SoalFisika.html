@@ -201,6 +201,20 @@ a:hover
    background-image: none;
    border: 0px #000000 solid;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   overflow-y: hidden;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
 #wb_Text2 
 {
    background-color: transparent;
@@ -344,27 +358,103 @@ a:hover
 {
    text-align: left;
 }
-#wb_Text13 
+#NavigationBar2 ul.navbar
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   overflow-y: hidden;
-   padding: 0;
+   list-style: none;
    margin: 0;
-   text-align: justify;
+   padding: 0;
 }
-#wb_Text13 div
+#NavigationBar2 ul.navbar li
 {
-   text-align: justify;
+   height: 30px;
+   width: 147px;
+   margin: 0 0 4px 0;
+   vertical-align: bottom;
 }
-#Image1
+#NavigationBar2 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar2 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar2 ul.navbar li span
+{
+   display: block;
+   height: 30px;
+   width: 147px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar2 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar2 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar2 a:hover span
+{
+   visibility: hidden;
+}
+#Image2
 {
    border-width: 0;
    left: 0;
    top: 0;
    width: 100%;
    height: 100%;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 30px;
+   width: 259px;
+   margin: 0 0 4px 0;
+   vertical-align: bottom;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 30px;
+   width: 259px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
 }
 #wb_Shape4
 {
@@ -374,6 +464,15 @@ a:hover
    width: 131px;
    height: 25px;
    z-index: 3;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 240px;
+   top: 249px;
+   width: 500px;
+   height: 47px;
+   z-index: 20;
 }
 #wb_Shape5
 {
@@ -391,7 +490,7 @@ a:hover
    top: 190px;
    width: 408px;
    height: 32px;
-   z-index: 20;
+   z-index: 21;
 }
 #wb_Shape20
 {
@@ -411,15 +510,6 @@ a:hover
    height: 25px;
    z-index: 5;
 }
-#wb_Image1
-{
-   position: absolute;
-   left: 335px;
-   top: 224px;
-   width: 317px;
-   height: 222px;
-   z-index: 32;
-}
 #wb_Text3
 {
    position: absolute;
@@ -427,7 +517,7 @@ a:hover
    top: 158px;
    width: 97px;
    height: 18px;
-   z-index: 21;
+   z-index: 22;
 }
 #wb_Shape10
 {
@@ -447,6 +537,15 @@ a:hover
    height: 25px;
    z-index: 6;
 }
+#wb_Image2
+{
+   position: absolute;
+   left: 244px;
+   top: 408px;
+   width: 189px;
+   height: 182px;
+   z-index: 33;
+}
 #wb_Text4
 {
    position: absolute;
@@ -454,7 +553,7 @@ a:hover
    top: 189px;
    width: 129px;
    height: 18px;
-   z-index: 22;
+   z-index: 23;
 }
 #wb_Shape11
 {
@@ -481,7 +580,7 @@ a:hover
    top: 219px;
    width: 129px;
    height: 18px;
-   z-index: 23;
+   z-index: 24;
 }
 #wb_Shape12
 {
@@ -508,7 +607,7 @@ a:hover
    top: 249px;
    width: 129px;
    height: 17px;
-   z-index: 24;
+   z-index: 25;
 }
 #wb_Shape13
 {
@@ -526,7 +625,7 @@ a:hover
    top: 279px;
    width: 129px;
    height: 17px;
-   z-index: 25;
+   z-index: 26;
 }
 #wb_Shape14
 {
@@ -537,6 +636,15 @@ a:hover
    height: 25px;
    z-index: 13;
 }
+#NavigationBar1
+{
+   position: absolute;
+   left: 477px;
+   top: 387px;
+   width: 259px;
+   height: 204px;
+   z-index: 34;
+}
 #wb_Text10
 {
    position: absolute;
@@ -545,7 +653,7 @@ a:hover
    width: 560px;
    height: 14px;
    text-align: center;
-   z-index: 28;
+   z-index: 29;
 }
 #wb_Text8
 {
@@ -554,7 +662,7 @@ a:hover
    top: 309px;
    width: 129px;
    height: 17px;
-   z-index: 26;
+   z-index: 27;
 }
 #wb_Shape15
 {
@@ -565,15 +673,24 @@ a:hover
    height: 25px;
    z-index: 14;
 }
+#NavigationBar2
+{
+   position: absolute;
+   left: 417px;
+   top: 302px;
+   width: 147px;
+   height: 34px;
+   z-index: 32;
+}
 #wb_Text11
 {
    position: absolute;
    left: 662px;
-   top: 105px;
+   top: 106px;
    width: 129px;
    height: 11px;
    text-align: right;
-   z-index: 29;
+   z-index: 30;
 }
 #wb_Text9
 {
@@ -582,7 +699,7 @@ a:hover
    top: 13px;
    width: 458px;
    height: 44px;
-   z-index: 27;
+   z-index: 28;
 }
 #wb_Shape16
 {
@@ -601,7 +718,7 @@ a:hover
    width: 522px;
    height: 29px;
    visibility: hidden;
-   z-index: 30;
+   z-index: 31;
 }
 #wb_Shape17
 {
@@ -611,16 +728,6 @@ a:hover
    width: 131px;
    height: 25px;
    z-index: 16;
-}
-#wb_Text13
-{
-   position: absolute;
-   left: 240px;
-   top: 449px;
-   width: 500px;
-   height: 304px;
-   text-align: justify;
-   z-index: 31;
 }
 #wb_Shape18
 {
@@ -953,6 +1060,27 @@ div#container
    width: 320px;
    height: 40px;
 }
+#wb_Text1
+{
+   left: 13px;
+   top: 375px;
+   width: 292px;
+   height: 473px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
 #wb_Text2
 {
    left: 10px;
@@ -1184,26 +1312,12 @@ div#container
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
 }
-#wb_Text13
+#NavigationBar2
 {
    left: 240px;
-   top: 528px;
-   width: 500px;
-   height: 248px;
-   visibility: hidden;
-   display: none;
-   font-size: 8px;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-}
-#wb_Text13
-{
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
+   top: 302px;
+   visibility: visible;
+   display: inline;
 }
 }
 </style>
@@ -1250,8 +1364,10 @@ div#container
 <div id="Shape19"></div></div>
 <div id="wb_Shape20">
 <div id="Shape20"></div></div>
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Sebelum mengerjakan soal - soal yang telah disediakan, agar dapat mengisi absen online terlebih dahulu. <br></span></div>
 <div id="wb_Text2">
-<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>Mendahara</strong></span></div>
+<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>Kumpulan Soal Fisika</strong></span></div>
 <div id="wb_Text3">
 <span style="color:#000000;font-family:Arial;font-size:15px;"><strong><a href="./index.html">Home</a></strong></span></div>
 <div id="wb_Text4">
@@ -1267,15 +1383,28 @@ div#container
 <div id="wb_Text9">
 <span style="color:#FFFFFF;font-family:Arial;font-size:37px;"><strong>FISIKA MENDAHARA</strong></span></div>
 <div id="wb_Text10">
-<span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Copyright © 2020&nbsp; ·&nbsp; All Rights reserved&nbsp; ·&nbsp; E-Mail: agus3widodo@gmail.com</span></div>
+<span style="color:#FFFFFF;font-family:Arial;font-size:11px;">Copyright © 2020&quot;&nbsp; ·&nbsp; All Rights reserved&nbsp; ·&nbsp; E-Mail: agus3widodo@gmail.com</span></div>
 <div id="wb_Text11">
 <span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;"><strong><em>Designed by ATW</em></strong></span></div>
 <div id="wb_Text12">
 <span style="color:#FFFFFF;font-family:Arial;font-size:24px;"><strong>YOUR WEBSITES NAME</strong></span></div>
-<div id="wb_Text13">
-<span style="color:#000000;font-family:Arial;font-size:15px;">Mendahara merupakan suatu kecamatan di Kabupaten Tanjung Jabung Timur Provinsi Jambi. Secara geografis, Mendahara terletak di sepanjang daerah pesisir Utara Provinsi Jambi. Secara teritorial, Kecamatan Mendahara berbatasan langsung dengan Kabupaten Tanjung Jabung Barat. Secara histori, Mendahara dahulu dikenal dengan nama “Bendahara”. Hal ini disebabkan pada saat itu Mendahara merupakan daerah yang memiliki sumber daya alam yang berlimpah baik dari sektor perikanan maupun perkebunan kelapa. Mata pencaharian utama Masyarakat Mendahara adalah nelayan dan petani kelapa. Masyarakat Mendahara terdiri dari empat suku utama, Melayu, Bugis, Banjar dan Jawa. Mayoritas masyarakat Mendahara beragama Islam. Hal ini menyebabkan Mendahara kaya akan keunikan budaya baik bahasa, seni, maupun tradisi. Bahasa sehari-hari Masyarakat Mendahara adalah Bahasa Melayu Timur, namun dengan dialek dominasi menggunakan kombinasi kata berakhiran dengan huruf “e”. Misalnya; kemane, dimane, ape, tak ade, entah ye, dan sebagainye</span></div>
-<div id="wb_Image1">
-<img src="images/panoramio-91290452.png" id="Image1" alt=""></div>
+<div id="NavigationBar2">
+<ul class="navbar">
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfmCNAlxNUcGF5DuRDAg1jexsna9C2nbPDY3Zzcw-rg0Q6Rbg/viewform"><img alt="" src="images/img0081_over.png" class="hover"><span><img alt="" src="images/img0081.png"></span></a></li>
+</ul>
+</div>
+<div id="wb_Image2">
+<img src="images/profile (Custom) (1).png" id="Image2" alt=""></div>
+<div id="NavigationBar1">
+<ul class="navbar">
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0082_over.png" class="hover"><span><img alt="" src="images/img0082.png"></span></a></li>
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0083_over.png" class="hover"><span><img alt="" src="images/img0083.png"></span></a></li>
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0084_over.png" class="hover"><span><img alt="" src="images/img0084.png"></span></a></li>
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0085_over.png" class="hover"><span><img alt="" src="images/img0085.png"></span></a></li>
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0086_over.png" class="hover"><span><img alt="" src="images/img0086.png"></span></a></li>
+<li><a href="https://agus3widodo.github.io/"><img alt="" src="images/img0087_over.png" class="hover"><span><img alt="" src="images/img0087.png"></span></a></li>
+</ul>
+</div>
 </div>
 </body>
 </html>
